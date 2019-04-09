@@ -14,6 +14,14 @@ class Bear
 
   def sushi_buffet(fish)
     @belly_contents << fish
-    @river1[@river_fish].pop()
+    # @river1.remove_fish(fish)
+  end
+
+  def bear_noise
+    "rar"
+  end
+
+  def bear_boast
+    "I have #{amount_of_fish_in_belly()} fish in my belly!"
   end
 end
