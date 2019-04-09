@@ -15,10 +15,7 @@ class FishTest < MiniTest::Test
 end
 
 
-#
-# A river should have a name e.g. "Amazon"
-#
-# A river should hold many fish
+
 #
 # A bear should have a name e.g. "Yogi" and a type e.g. "Grizzly"
 #
